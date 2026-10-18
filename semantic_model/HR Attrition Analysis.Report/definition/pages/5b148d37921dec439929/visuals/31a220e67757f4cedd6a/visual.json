@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "31a220e67757f4cedd6a",
+  "position": {
+    "x": 400.00000000000006,
+    "y": 0,
+    "z": 3500,
+    "height": 144,
+    "width": 208.00000000000006,
+    "tabOrder": 14001
+  },
+  "visualGroup": {
+    "displayName": "Total Headcount",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "5d26b0532bf68986210f"
+}

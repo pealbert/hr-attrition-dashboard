@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "bb65c534f87101ab9f36",
+  "position": {
+    "x": 600,
+    "y": 0,
+    "z": 1000,
+    "height": 144,
+    "width": 208,
+    "tabOrder": 14001
+  },
+  "visualGroup": {
+    "displayName": "Average Income",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "5d26b0532bf68986210f"
+}

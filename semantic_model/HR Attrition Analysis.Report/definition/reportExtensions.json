@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/reportExtension/1.0.0/schema.json",
+  "name": "extension",
+  "entities": [
+    {
+      "name": "hr_employees",
+      "measures": [
+        {
+          "name": "Head Count",
+          "dataType": "Double",
+          "expression": "\nFORMAT(\n    COUNTROWS(hr_employees),\n    \"#,##0\"\n)",
+          "formatString": "0"
+        },
+        {
+          "name": "Attrition Rate",
+          "dataType": "Double",
+          "expression": "\nDIVIDE(\n    CALCULATE(\n        COUNTROWS(hr_employees),\n        hr_employees[Attrition] = \"Yes\"\n    ),\n    COUNTROWS(hr_employees)\n)",
+          "formatString": "0.0\\ %;-0.0\\ %;0.0\\ %"
+        },
+        {
+          "name": "Average Monthly Income",
+          "dataType": "Double",
+          "expression": "\nFORMAT(\n    AVERAGE(hr_employees[MonthlyIncome]),\n    \"$#,##0\"\n)",
+          "formatString": "\\$#,0;(\\$#,0);\\$#,0"
+        },
+        {
+          "name": "Avg Tenure of Leavers",
+          "dataType": "Double",
+          "expression": "\nCALCULATE(\n    AVERAGE(hr_employees[YearsAtCompany]),\n    hr_employees[Attrition] = \"Yes\"\n)",
+          "formatString": "0.0"
+        },
+        {
+          "name": "Employees Left",
+          "dataType": "Double",
+          "expression": "\nCALCULATE(\n    COUNTROWS(hr_employees),\n    hr_employees[Attrition] = \"Yes\"\n)"
+        },
+        {
+          "name": "Employees Stayed",
+          "dataType": "Double",
+          "expression": "\nCALCULATE(\n    COUNTROWS(hr_employees),\n    hr_employees[Attrition] = \"No\"\n)"
+        }
+      ]
+    }
+  ]
+}

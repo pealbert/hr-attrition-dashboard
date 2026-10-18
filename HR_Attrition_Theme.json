@@ -1,0 +1,28 @@
+{
+  "name": "Inter - Sales Analytics Colors",
+  "dataColors": [
+    "#24C55B",
+    "#17A34A",
+    "#FFFFFF",
+    "#FEF97F",
+    "#FF4D4F",
+    "#101826",
+    "#6B7380",
+    "#E6E8EC"
+  ],
+  "good": "#1DAA42",
+  "neutral": "#FAEF23",
+  "bad": "#FF4D4F",
+  "maximum": "#118EFF",
+  "center": "#DAB301",
+  "minimum": "#DEEFFF",
+  "background": "#FFFFFF",
+  "foreground": "#101826",
+  "tableAccent": "#17A34A",
+  "textClasses": {
+    "title": { "fontFace": "Inter" },
+    "header": { "fontFace": "Inter" },
+    "label": { "fontFace": "Inter" },
+    "callout": { "fontFace": "Inter" }
+  }
+}

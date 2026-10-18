@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "dc2f39d3675999f2d567",
+  "position": {
+    "x": 200.00000000000003,
+    "y": 0,
+    "z": 4000,
+    "height": 144,
+    "width": 208.00000000000003,
+    "tabOrder": 14001
+  },
+  "visualGroup": {
+    "displayName": "Employees Left",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "5d26b0532bf68986210f"
+}

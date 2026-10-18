@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "9b887686291b11f04563",
+  "position": {
+    "x": 800,
+    "y": 0,
+    "z": 500,
+    "height": 144,
+    "width": 208,
+    "tabOrder": 14001
+  },
+  "visualGroup": {
+    "displayName": "Avg Leaver Tenure",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "5d26b0532bf68986210f"
+}
